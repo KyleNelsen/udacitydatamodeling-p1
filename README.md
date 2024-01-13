@@ -1,3 +1,6 @@
+Overview
+================================
+
 This is my second project for the data wrangling part of the Udacity Data Analytics Nanodegree. It involves creating a Postgres database and building an ETL pipeline using python for a fictional startup called Sparkify who wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. 
 
 The ETL process involves taking json files from the data folder provided by Udacity, transforming the data such as taking a timestamp in milliseconds and converting it into a datetime object where can it be split up into multiple columns for a more understandable timestamp. Finally the data can be loaded into tables through sql queries and be inside the database.
@@ -9,9 +12,9 @@ Files
 
 data - folder that contains log_data and song_data. log_data is data on the user, song_data is data on the song.
 
-create_tables.py - creates database, drops and creates your tables. You run this file to reset your tables before each time you run your ETL scripts.
-
 ERD.png - image of the Entity-Relationship Diagram of the database
+
+create_tables.py - creates database, drops and creates your tables. You run this file to reset your tables before each time you run your ETL scripts.
 
 etl.ipynb - reads and processes a single file from song_data and log_data and loads the data into your tables. This notebook contains detailed instructions on the ETL process for each of the tables.
 
