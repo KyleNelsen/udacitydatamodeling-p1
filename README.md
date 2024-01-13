@@ -29,7 +29,7 @@ test.ipynb - displays the first few rows of each table to let you check your dat
 
 In order to run the code:
 ================================
-1. Run create_tables.py to create database and tables
+1. Run create_tables.py to create database and tables, make sure the test.ipynb kernal is inactive first.
 2. Run etl.py to process data
 3. Run test.ipynb to see if it all worked
 
