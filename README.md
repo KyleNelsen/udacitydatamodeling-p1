@@ -3,7 +3,6 @@ This is my second project for the data wrangling part of the Udacity Data Analyt
 The ETL process involves taking json files from the data folder provided by Udacity, transforming the data such as taking a timestamp in milliseconds and converting it into a datetime object where can it be split up into multiple columns for a more understandable timestamp. Finally the data can be loaded into tables through sql queries and be inside the database.
 
 As you can see from ERD.png, the database is a star schema.
-
 ================================
 
 data - folder that contains log_data and song_data. log_data is data on the user, song_data is data on the song.
