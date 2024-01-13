@@ -4,6 +4,7 @@ The ETL process involves taking json files from the data folder provided by Udac
 
 As you can see from ERD.png, the database is a star schema.
 
+Files
 ================================
 
 data - folder that contains log_data and song_data. log_data is data on the user, song_data is data on the song.
