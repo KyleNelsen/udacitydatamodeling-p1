@@ -4,6 +4,7 @@ The ETL process involves taking json files from the data folder provided by Udac
 
 As you can see from ERD.png, the database is a star schema.
 
+================================
 
 data - folder that contains log_data and song_data. log_data is data on the user, song_data is data on the song.
 
@@ -23,6 +24,7 @@ test.ipynb - displays the first few rows of each table to let you check your dat
 
 
 In order to run the code:
+================================
 1. Run create_tables.py to create database and tables
 2. Run etl.py to process data
 3. Run test.ipynb to see if it all worked
