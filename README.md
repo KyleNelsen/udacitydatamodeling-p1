@@ -41,3 +41,5 @@ Connection info needed in SQLAlchemy format, example:
 
 run this to fix:
 conda install jupysql -c conda-forge or pip install jupysql -c conda-forge"# udacitydatawrangling-p2" 
+
+<img src="ERD.png"/>
