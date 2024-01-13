@@ -36,7 +36,7 @@ In order to run the code:
 
 Problems with original template
 ================================
--couldn't launch database, I ran fix_df.py to recreate database and user
+-couldn't launch database, I ran fix_db sql statements to recreate database and user
 
 -to run %load_ext sql - conda install ipython-sql or pip install ipython-sql
 
